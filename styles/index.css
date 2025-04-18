@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.portada {
+    width: 100%;
+  background-size:cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.sinopsis {
+  color: rgb(7, 7, 7);
+  border-radius: 10px;
+  size: 20px;
+  padding: 10px;
+}
+
+.footer {
+
+  color: rgb(5, 4, 4);
+  text-align: center;
+  padding: 10px;
+}
