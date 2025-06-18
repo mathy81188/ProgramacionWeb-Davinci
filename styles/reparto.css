@@ -40,33 +40,67 @@ a:hover {
 /* ====== MAIN ====== */
 main {
   background-color: #f5f5f5;
-  padding: 20px;
+  padding-top: 20px;
   color: #0c1c3c;
   font-family: Arial, sans-serif;
   font-size: 20px;
 }
-
-article {
+.titulo-seccion {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+  color: #0b3d91;
+  text-shadow: 1px 1px 1px #3c3737;
+}
+.reparto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: normal;
   margin-bottom: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 30px;
   padding-right: 30px;
+  width: 100%;
 }
-
-h2 {
+.reparto-item{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 300px;
+  align-items: center;
+}
+ .reparto-img{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.reparto-nombre {
   color: #0b3d91;
-  font-size: 1.3em;
+  font-size: 1em;
   margin-bottom: 10px;
+  margin-top: 10px;
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
   font-style: normal;
   text-shadow: 1px 1px 1px #3c3737;
+  width: 250px;
+
+  
 }
 
-p {
-  font-size: 1em;
+.reparto-descripcion {
+  width: 300px;
+  font-size: 0.9em;
   margin-bottom: 10px;
 }
 /* ====== FOOTER ====== */

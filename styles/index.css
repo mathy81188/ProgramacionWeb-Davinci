@@ -39,23 +39,33 @@ a:hover {
 
 /* ====== MAIN ====== */
 main {
-  background-color: #f5f5f5;
-  color: #0c1c3c;
   font-family: Arial, sans-serif;
   font-size: 20px;
 }
 
 .portada {
+  background-image: url("../img/portada-index.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
   width: 100%;
-  height: auto;
+  height: 400px;
   display: block;
   margin: 0;
   padding: 0;
   margin-bottom: 10px;
 }
 
+.video-index{
+  position: relative;
+  top: 10%;
+  left: 35%;
+  right: 35%;
+
+}
 .sinopsis {
-  background-color: #f4f4f4;
+
   color: #222;
   padding-top: 10px;
   padding-bottom: 10px;

@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="./img/FAVICON.jpg" type="image/x-icon">
     <title>Contacto</title>
   </head>
   <body>
@@ -27,10 +28,16 @@
       </nav>
     </header>
     <main>
-      <section>
-        <img src="./img/contacto.jpg" alt="contacto" class="contacto" />
-
-        <h2>Contacto</h2>
+      <section class="contacto">
+          <form class="formulario">
+            <input type="text" id="name" name="Nombre" placeholder="Nombre">
+            <input type="email" id="email" name="email" placeholder="Email">
+            <textarea type="text" name="mensaje" placeholder="Mensaje" id="Mensaje"></textarea>        
+            <input type="submit" value="Enviar">
+          </form>
+        
+        
+    
       </section>
     </main>
     <footer class="footer">
