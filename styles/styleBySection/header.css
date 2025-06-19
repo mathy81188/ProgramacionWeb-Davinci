@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0a3d62;
+    color: #fff;
+    padding: 10px ;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-shadow: 2px 2px 3px #0d0606;
+  
+  }
+  .logo {
+    width: 200px;
+  
+  
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #b31217;
+    text-decoration: none;
+  }

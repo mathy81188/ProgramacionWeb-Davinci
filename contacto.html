@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styleBySection/header.css">
     <link rel="stylesheet" href="./styles/contacto.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,7 +16,7 @@
   </head>
   <body>
     <header>
-    <h1><a href="index.html"><em>INCEPTION</em><span> - Sitio de Película</span></a></h1>
+   <a href="index.html"><img class="logo" src="./img/inception-logo.jpg" alt=""></a>
       <nav>
         <ul>
           <li><a href="sobre.html">Sobre la Película</a></li>
@@ -29,11 +30,12 @@
     </header>
     <main>
       <section class="contacto">
-          <form class="formulario">
+          <form class="formulario" action="./enviar.html" method="get">
             <input type="text" id="name" name="Nombre" placeholder="Nombre">
+            <input type="text" id="Apellido" name="Apellido" placeholder="Apellido">
             <input type="email" id="email" name="email" placeholder="Email">
             <textarea type="text" name="mensaje" placeholder="Mensaje" id="Mensaje"></textarea>        
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar" >
           </form>
         
         
