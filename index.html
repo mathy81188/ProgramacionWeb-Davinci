@@ -1,70 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/styleBySection/header.css">
-    <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="./img/FAVICON.jpg" type="image/x-icon">
-    <title>Inicio</title>
-  </head>
-  <body>
-    <header>
-      <img class="logo" src="./img/inception-logo.jpg" alt="logo de Inception" />
-      <nav>
-        <ul>
-          <li><a href="sobre.html">Sobre la Película</a></li>
-          <li><a href="reparto.html">Reparto</a></li>
-          <li>
-            <a href="produccion.html">Producción y Estudio de Grabación</a>
-          </li>
-          <li><a href="curiosidades.html">Curiosidades y Premios</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
 
-    <main>
-      <section class="portada">
-        <iframe class="video-index" width="460" height="315" src="https://www.youtube.com/embed/DdFpRFhHetk?si=_LYxoh9OoGHYNJge"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</section>
-<section>
-        <article class="sinopsis">
-          <h2>Bienvenido a Inception</h2>
-          <p>
-            Dom Cobb es un ladrón con una extraña habilidad para entrar a los
-            sueños de la gente y robarles los secretos de sus subconscientes. Su
-            habilidad lo ha vuelto muy popular en el mundo del espionaje
-            corporativo, pero ha tenido un gran costo en la gente que ama. Cobb
-            obtiene la oportunidad de redimirse cuando recibe una tarea
-            imposible: plantar una idea en la mente de una persona. Si tiene
-            éxito, será el crimen perfecto, pero un enemigo se anticipa a sus
-            movimientos.
-          </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/components/header.css">
+  <link rel="stylesheet" href="./styles/components/footer.css">
+  <link rel="stylesheet" href="./styles/components/body.css">
+  <link rel="stylesheet" href="./styles/utils.css" />
+  <link rel="stylesheet" href="./styles/pages/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="./img/FAVICON.jpg" type="image/x-icon">
+  <title>Inicio</title>
+</head>
 
-          <p><strong>Género:</strong> Ciencia ficción, Thriller</p>
-        </article>
-        <aside class="curiosidades">
-          <h2>Curiosidades</h2>
-          <p>
-            En 2011, Christopher Nolan reveló a Deadline que le costó mucho
-            conseguir que la historia fuese realmente atractiva. Pero todo se
-            solucionó cuando la esposa y los hijos de Cobb entraron en escena.
-          </p>
-        </aside>
-      </section>
-    </main>
-    <footer class="footer">
-      <p>Hecho por Matias. All rights reserved &copy; 2025</p>
-    </footer>
-  </body>
+<body>
+  <header>
+    <a href="#" class="inactivo"><img class="logo" src="./img/inception-logo.jpg" alt="logo"></a>
+    <nav>
+      <ul>
+        <li><a href="sobre.html">Sobre la Película</a></li>
+        <li><a href="reparto.html">Reparto</a></li>
+        <li>
+          <a href="produccion.html">Producción y Estudio de Grabación</a>
+        </li>
+        <li><a href="curiosidades.html">Curiosidades y Premios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="portada">
+      <iframe class="video-index" width="460" height="315"
+        src="https://www.youtube.com/embed/DdFpRFhHetk?si=_LYxoh9OoGHYNJge" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <section>
+      <article class="sinopsis">
+        <h1>Bienvenido a Inception</h1>
+        <p>
+          Dom Cobb es un ladrón con una extraña habilidad para entrar a los
+          sueños de la gente y robarles los secretos de sus subconscientes. Su
+          habilidad lo ha vuelto muy popular en el mundo del espionaje
+          corporativo, pero ha tenido un gran costo en la gente que ama. Cobb
+          obtiene la oportunidad de redimirse cuando recibe una tarea
+          imposible: plantar una idea en la mente de una persona. Si tiene
+          éxito, será el crimen perfecto, pero un enemigo se anticipa a sus
+          movimientos.
+        </p>
+
+        <p><strong>Género:</strong> Ciencia ficción, Thriller</p>
+      </article>
+      <aside class="curiosidades mb-30">
+        <h2>Curiosidades</h2>
+        <p class="curiosidades-texto py-10 px-30">
+          En 2011, Christopher Nolan reveló a Deadline que le costó mucho
+          conseguir que la historia fuese realmente atractiva. Pero todo se
+          solucionó cuando la esposa y los hijos de Cobb entraron en escena.
+        </p>
+      </aside>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>Hecho por Matias. All rights reserved &copy; 2025</p>
+  </footer>
+</body>
+
 </html>

@@ -4,8 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./styles/styleBySection/header.css">
-  <link rel="stylesheet" href="./styles/reparto.css" />
+  <link rel="stylesheet" href="./styles/components/header.css">
+  <link rel="stylesheet" href="./styles/components/footer.css">
+  <link rel="stylesheet" href="./styles/components/body.css">
+  <link rel="stylesheet" href="./styles/pages/reparto.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
@@ -22,6 +24,7 @@
     <nav>
       <ul>
         <li><a href="sobre.html">Sobre la Película</a></li>
+        <li><a href="#" class="inactivo">Reparto</a></li>
         <li>
           <a href="produccion.html">Producción y Estudio de Grabación</a>
         </li>
@@ -34,68 +37,73 @@
   <main>
 
     <section class="reparto">
-      <article class="reparto-item">
+      <div class="card">
         <img class="reparto-img" src="./img/reparto-dicaprio.jpg" alt="Leonardo DiCaprio" />
-        <h2 class="reparto-nombre">Leonardo DiCaprio como Dom Cobb</h2>
-        <p class="reparto-descripcion">
-          Es el protagonista de la historia, un ladrón especializado en el
-          espionaje mediante sueños. Su conflicto interno con el pasado
-          impulsa gran parte de la trama.
-        </p>
-      </article>
-
-      <article class="reparto-item">
+        <div class="card__content">
+          <p class="card__title">Leonardo DiCaprio como Dom Cobb</p>
+          <p class="card__description">Es el protagonista de la historia, un ladrón especializado en el
+            espionaje mediante sueños. Su conflicto interno con el pasado
+            impulsa gran parte de la trama.</p>
+        </div>
+      </div>
+      <div class="card">
         <img class="reparto-img" src="./img/reparto-JosephGordon-Levitt.JPG" alt="Joseph Gordon-Levitt" />
-        <h2 class="reparto-nombre">Joseph Gordon-Levitt como Arthur</h2>
-        <p class="reparto-descripcion">
-          Es el socio de confianza de Cobb. Se encarga de organizar y ejecutar
-          los detalles técnicos dentro de los sueños.
-        </p>
-      </article>
+        <div class="card__content">
+          <p class="card__title">Joseph Gordon-Levitt como Arthur</p>
+          <p class="card__description">Es el socio de confianza de Cobb. Se encarga de organizar y ejecutar
+            los detalles técnicos dentro de los sueños.</p>
+        </div>
+      </div>
 
-      <article class="reparto-item">
+      <div class="card">
         <img class="reparto-img" src="./img/reparto-ElliotPage.jpg" alt="Elliot Page" />
-        <h2 class="reparto-nombre">Elliot Page como Ariadne</h2>
-        <p class="reparto-descripcion">
-          Una joven arquitecta que diseña los laberintos del mundo onírico. Su
-          curiosidad la lleva a descubrir secretos ocultos de Cobb.
-        </p>
-      </article>
-
-      <article class="reparto-item">
+        <div class="card__content">
+          <p class="card__title">Elliot Page como Ariadne</p>
+          <p class="card__description">Una joven arquitecta que diseña los laberintos del mundo onírico. Su
+            curiosidad la lleva a descubrir secretos ocultos de Cobb.</p>
+        </div>
+      </div>
+      <div class="card">
         <img class="reparto-img" src="./img/reparto-TomHardy.jpg" alt="Tom Hardy" />
-        <h2 class="reparto-nombre">Tom Hardy como Eames</h2>
-        <p class="reparto-descripcion">
-          Es un falsificador que puede adoptar la identidad de otras personas
-          dentro del sueño. Aporta humor y creatividad al equipo.
-        </p>
-      </article>
-
-      <article class="reparto-item">
+        <div class="card__content">
+          <p class="card__title">Tom Hardy como Eames</p>
+          <p class="card__description">Es un falsificador que puede adoptar la identidad de otras personas
+            dentro del sueño. Aporta humor y creatividad al equipo.</p>
+        </div>
+      </div>
+      <div class="card">
         <img class="reparto-img" src="./img/reparto-KenWatanabe.jpg" alt="Ken Watanabe" />
-        <h2 class="reparto-nombre">Ken Watanabe como Saito</h2>
-        <p class="reparto-descripcion">
-          Un poderoso empresario que contrata a Cobb para realizar la
-          "inception". También participa activamente en la misión.
-        </p>
-      </article>
-      <article class="reparto-item">
+        <div class="card__content">
+          <p class="card__title">Ken Watanabe como Saito</p>
+          <p class="card__description">Un poderoso empresario que contrata a Cobb para realizar la
+            "inception". También participa activamente en la misión.</p>
+        </div>
+      </div>
+      <div class="card">
         <img class="reparto-img" src="./img/reparto-CillianMurphy.jpg" alt="Cillian Murphy" />
-        <h2 class="reparto-nombre">Cillian Murphy como Robert Fischer</h2>
-        <p class="reparto-descripcion">
-          El objetivo de la operación de "inception". Su conflicto familiar es
-          clave para lograr el objetivo del equipo.
-        </p>
-      </article>
-
-      <article class="reparto-item">
+        <div class="card__content">
+          <p class="card__title">Cillian Murphy como Robert Fischer</p>
+          <p class="card__description">El objetivo de la operación de "inception". Su conflicto familiar es
+            clave para lograr el objetivo del equipo.</p>
+        </div>
+      </div>
+      <div class="card">
         <img class="reparto-img" src="./img/reparto-MarianCotillard.jpg" alt="Marian Cotillard" />
-        <h2 class="reparto-nombre">Marion Cotillard como Mal</h2>
-        <p class="reparto-descripcion">
-          Es la esposa fallecida de Cobb que aparece constantemente en sus
-          sueños, representando su culpa y su mayor obstáculo emocional.
-        </p>
-      </article>
+        <div class="card__content">
+          <p class="card__title">Marion Cotillard como Mal</p>
+          <p class="card__description">Es la esposa fallecida de Cobb que aparece constantemente en sus
+            sueños, representando su culpa y su mayor obstáculo emocional.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="reparto-img" src="./img/reparto-MichaelCaine.jpg" alt="Michael Caine" />
+        <div class="card__content">
+          <p class="card__title">Michael Caine como Stephen Miles</p>
+          <p class="card__description">Suegro y mentor de Cobb. Actúa como ancla
+          emocional y vínculo con la realidad, siendo clave en la ambigua escena final del reencuentro con los hijos.</p>
+        </div>
+      </div>
+      </section>
     </section>
 
   </main>

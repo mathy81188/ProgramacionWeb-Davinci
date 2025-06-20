@@ -4,8 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./styles/styleBySection/header.css">
-  <link rel="stylesheet" href="./styles/sobre.css" />
+  <link rel="stylesheet" href="./styles/components/header.css">
+  <link rel="stylesheet" href="./styles/components/footer.css">
+  <link rel="stylesheet" href="./styles/components/body.css">
+  <link rel="stylesheet" href="./styles/utils.css" />
+  <link rel="stylesheet" href="./styles/pages/sobre.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
@@ -17,10 +20,11 @@
 <body>
   <header>
   
-    <a href="index.html"><img class="logo" src="./img/inception-logo.jpg" alt=""></a>
+    <a href="index.html"><img class="logo" src="./img/inception-logo.jpg" alt="logo"></a>
     
     <nav>
       <ul>
+        <li><a href="#" class="inactivo">Sobre la Película</a></li>
         <li><a href="reparto.html">Reparto</a></li>
         <li>
           <a href="produccion.html">Producción y Estudio de Grabación</a>
@@ -32,7 +36,7 @@
   </header>
 
   <main>
-    <section class="portada">
+    <section class="portada mb-10">
       <iframe class="video-sobre" width="460" height="315"
         src="https://www.youtube.com/embed/9rLfXmA6Drg?si=nxR9EdI5HovD0n5L&amp;start=9" title="YouTube video player"
         frameborder="0"
