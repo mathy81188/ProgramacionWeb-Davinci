@@ -1,9 +1,10 @@
 
 main {
-  background-color: #DDDDDD;
+  background-color: #0a3d62;
   color: #0c1c3c;
   font-family: Arial, sans-serif;
   font-size: 20px;
+  padding-bottom: 20px;
 }
 .curiosidades {
   width: 100%;
@@ -29,8 +30,16 @@ main {
 }
 
 article {
-padding-bottom: 30px;
-  margin-left: 20px;
+  background-color: #f3f3f3;
+  border-left: 5px solid #143f78;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
+}
+article:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  border-left: 5px solid #af2d2d;
 }
 
 h2 {
@@ -39,8 +48,11 @@ h2 {
   margin-bottom: 10px;
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
   font-style: normal;
   text-shadow: 2px 2px 2px #AF2D2D;
+  
 }
 
+h2::before {
+  content: "🎬 ";
+}

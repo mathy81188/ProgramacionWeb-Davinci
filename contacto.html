@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/components/header.css">
-    <link rel="stylesheet" href="./styles/components/footer.css">
-    <link rel="stylesheet" href="./styles/components/body.css">
-    <link rel="stylesheet" href="./styles/pages/contacto.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="./img/FAVICON.jpg" type="image/x-icon">
-    <title>Contacto</title>
-  </head>
-  <body>
-    <header>
-   <a href="index.html"><img class="logo" src="./img/inception-logo.jpg" alt="logo"></a>
-      <nav>
-        <ul>
-          <li><a href="sobre.html">Sobre la Película</a></li>
-          <li><a href="reparto.html">Reparto</a></li>
-          <li>
-            <a href="produccion.html">Producción y Estudio de Grabación</a>
-          </li>
-          <li><a href="curiosidades.html">Curiosidades y Premios</a></li>
-          <li><a href="#" class="inactivo">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="contacto">
-          <form class="formulario" action="./enviar.html" method="get">
-            <input type="text" id="name" name="Nombre" placeholder="Nombre">
-            <input type="text" id="Apellido" name="Apellido" placeholder="Apellido">
-            <input type="email" id="email" name="email" placeholder="Email">
-            <textarea type="text" name="mensaje" placeholder="Mensaje" id="Mensaje"></textarea>        
-            <input type="submit" value="Enviar" >
-          </form>
-        
-        
-    
-      </section>
-    </main>
-    <footer class="footer">
-      <p>Hecho por Matias. All rights reserved &copy; 2025</p>
-    </footer>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/components/header.css">
+  <link rel="stylesheet" href="./styles/components/footer.css">
+  <link rel="stylesheet" href="./styles/components/body.css">
+  <link rel="stylesheet" href="./styles/pages/contacto.css" />
+  <link rel="stylesheet" href="./styles/components/formulario.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="./img/FAVICON.png" type="image/x-icon">
+  <title>Contacto</title>
+</head>
+
+<body>
+  <header>
+    <a href="index.html"><img class="logo" src="./img/inception-logo.jpg" alt="logo"></a>
+    <nav>
+      <ul>
+        <li><a href="sobre.html">Sobre la Película</a></li>
+        <li><a href="reparto.html">Reparto</a></li>
+        <li>
+          <a href="produccion.html">Producción y Estudio de Grabación</a>
+        </li>
+        <li><a href="curiosidades.html">Curiosidades y Premios</a></li>
+        <li><a href="#" class="inactivo">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="contacto">
+      <form class="formulario" action="./enviar.html" method="get">
+        <input label="Nombre" type="text" id="name" name="Nombre" placeholder="Nombre">
+        <input label="Apellido" type="text" id="Apellido" name="Apellido" placeholder="Apellido">
+        <input label="Email" type="email" id="email" name="email" placeholder="Email">
+        <textarea name="mensaje" placeholder="Mensaje" id="Mensaje"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>Hecho por Matias. All rights reserved &copy; 2025</p>
+  </footer>
+</body>
+
 </html>

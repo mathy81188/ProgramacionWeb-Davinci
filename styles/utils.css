@@ -7,16 +7,18 @@
 .px-30 { padding-left: 30px; padding-right: 30px; }
 .py-10 { padding-top: 10px; padding-bottom: 10px; }
 .py-20 { padding-top: 20px; padding-bottom: 20px; }
+.py-30 { padding-top: 30px; padding-bottom: 30px; }
 
 /* Margin */
-.m-10 { margin: 10px; }
+.m-10 { margin: 10px !important; }
 .m-20 { margin: 20px; }
 .mx-auto { margin-left: auto; margin-right: auto; }
 .mt-10 { margin-top: 10px; }
 .mb-10 { margin-bottom: 10px; }
 .mb-20 { margin-bottom: 20px; }
 .mb-30 { margin-bottom: 30px; }
-
+.my-10 { margin-top: 10px; margin-bottom: 10px; }
+.my-20 { margin-top: 20px; margin-bottom: 20px; }
 
 /* ========== CENTRADO Y TEXTO ========== */
 

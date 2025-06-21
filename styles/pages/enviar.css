@@ -9,34 +9,31 @@ main {
   font-family: Arial, sans-serif;
   font-size: 20px;
 }
-
 .contacto {
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   background-image: url("/img/contacto.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
-  margin: 0;
   padding: 0;
-  border-radius: 5px;
-  background-color: #f2f2f2;
 }
 
 .mensaje {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   width: 100%;
   max-width: 600px;
+  height: 150px; 
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.85);
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
-  font-size: 18px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   color: #b31217;
-  display: inline-block;
-  margin: 0 0.5rem;
-  animation-duration: 3s;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  animation-duration: 2s;
 }
