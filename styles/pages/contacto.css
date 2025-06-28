@@ -7,6 +7,7 @@ main {
   color: #0c1c3c;
   font-family: Arial, sans-serif;
   font-size: 20px;
+  flex: auto;
 }
 
 .contacto {

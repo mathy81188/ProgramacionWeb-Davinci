@@ -1,7 +1,7 @@
 /* ====== MAIN ====== */
 
 main {
-
+  flex: auto;
   background-size: cover;
   background-position: center;
   display: block;
