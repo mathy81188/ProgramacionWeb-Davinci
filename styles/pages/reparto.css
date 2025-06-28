@@ -1,4 +1,12 @@
 /* ====== MAIN ====== */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+  
+
 main {
   background-color: #0a3d62;
   max-height: 200vh;
@@ -6,6 +14,7 @@ main {
   font-family: Arial, sans-serif;
   font-size: 20px;
   width: 100%;
+  flex: auto;
 }
 .reparto {
   display: flex;
