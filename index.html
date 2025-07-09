@@ -20,8 +20,12 @@
 <body>
   <header>
     <a href="#" class="inactivo"><img class="logo" src="./img/inception-logo.jpg" alt="logo"></a>
-    <nav>
-      <ul>
+    
+      <!-- Checkbox oculto y etiqueta como botón -->
+      <input type="checkbox" id="toggle">
+      <label for="toggle" class="hamburger">&#9776;</label>
+    <nav class="menu">
+      <ul >
         <li><a href="sobre.html">Sobre la Película</a></li>
         <li><a href="reparto.html">Reparto</a></li>
         <li>
@@ -35,13 +39,13 @@
 
   <main>
     <section class="portada">
-      <iframe class="video-index" width="460" height="315"
+      <iframe class="video-index" width="360" height="315"
         src="https://www.youtube.com/embed/DdFpRFhHetk?si=_LYxoh9OoGHYNJge" title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
-    <section>
-      <article class="sinopsis py-10 px-30 my-10">
+    <section class="bienvenida">
+      <article class="sinopsis  px-30 my-10">
         <h1 class="my-10">Bienvenido a Inception</h1>
         <p>
           Dom Cobb es un ladrón con una extraña habilidad para entrar a los
@@ -56,7 +60,7 @@
 
         <p><strong>Género:</strong> Ciencia ficción, Thriller</p>
       </article>
-      <aside class="curiosidades mb-30">
+      <aside class="curiosidades m-20">
         <h2 class="mt-10 ">Curiosidades</h2>
         <p class="curiosidades-texto py-10 px-30">
           En 2011, Christopher Nolan reveló a Deadline que le costó mucho

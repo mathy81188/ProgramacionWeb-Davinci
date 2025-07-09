@@ -1,50 +1,134 @@
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #0a3d62; 
-    color: #fff;
-    padding: 10px ;
-    text-align: center;
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-shadow: 2px 2px 3px #0d0606;
-  
-  
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0a3d62;
+  position: relative;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-shadow: 2px 2px 3px #0d0606;
+}
 
-  .logo {
-    width: 200px;
-  
-  
-  }
-  ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-  
-  a {
-    font-size: 20px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  a:hover {
-    color: #f39c12;
-    text-decoration: none;
-  }
+.logo {
+  width: 200px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
 
-.inactivo{
+a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #f39c12;
+  text-decoration: none;
+}
+
+.inactivo {
   pointer-events: none;
   color: #f39c12;
   text-shadow: 1px 1px 1px #d77307;
   transition: color 0.3s ease;
- 
+}
+.hamburger {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+/* Checkbox oculto */
+#toggle {
+  display: none;
+}
+@media (max-width: 930px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    padding: 10px 20px;
+  }
+  .menu.active ul {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: auto;
+  }
+
+  nav.menu ul {
+    display: none;
+    flex-direction: column;
+    background-color: #0a3d62;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    z-index: 1000;
+    margin: 0;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
+    border-left: 1px solid #ffffff33; /* línea divisoria sutil */
+    gap: 0;
+    padding: 0;
+  }
+
+  nav.menu ul li {
+    list-style: none;
+    border-bottom: 1px solid #ffffff33; /* línea separadora */
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  nav.menu ul li:last-child {
+    border-bottom: none; /* sin línea en el último ítem */
+  }
+
+  nav.menu ul a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  li {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+  }
+  /* Mostrar menú cuando el checkbox está activado */
+  #toggle:checked + .hamburger + nav.menu ul {
+    display: flex;
+    right: 0%;
+  }
+}
+
+@media (max-width: 300px) {
 }

@@ -1,7 +1,7 @@
 /* ====== MAIN ====== */
 main {
   background-color: #0a3d62;
-  max-height: 200vh;
+
   color: #0c1c3c;
   font-family: Arial, sans-serif;
   font-size: 20px;
@@ -25,3 +25,4 @@ main {
   object-fit: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
