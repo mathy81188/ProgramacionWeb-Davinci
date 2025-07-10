@@ -37,3 +37,18 @@ main {
   font-size: 20px;
   animation-duration: 2s;
 }
+
+
+
+@media (max-width: 1000px) {
+  .contacto {
+    padding: 0 5%;
+    justify-content: center;
+  }
+  
+  .mensaje {
+    width: 90%;
+    max-width: none;
+    animation: none;
+  }
+}

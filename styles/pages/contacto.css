@@ -24,3 +24,11 @@ main {
 }
 
 
+@media (max-width: 768px) {
+  .contacto {
+    padding-right: 5%;
+    padding-left: 5%;
+    justify-content: center;
+
+  }
+}

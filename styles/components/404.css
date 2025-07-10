@@ -8,6 +8,7 @@ main{
     color: #0c1c3c;
     font-family: Arial, sans-serif;
     font-size: 20px;
+    text-align: center;
     width: 100%;
     height: 84vh;
 }
@@ -113,3 +114,22 @@ main{
     }
   }
   
+  @media screen and (max-width: 900px) {
+  main{
+    height: 80vh;
+  }
+  
+
+ 
+    h1 {
+      font-size: unset;
+      padding: 10px;
+     
+    }
+    p{  
+      font-size: 15px;
+  
+      padding: 20px;
+    }
+  
+  }

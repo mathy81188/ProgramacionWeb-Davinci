@@ -9,5 +9,6 @@
   @media (max-width: 930px) {
     .footer {
       text-align: center;
+      height: auto;
     }
   }

@@ -108,7 +108,7 @@ a:hover {
   }
 
   nav.menu ul a {
-    color: white;
+
     text-decoration: none;
     font-weight: bold;
     width: 100%;
@@ -131,4 +131,9 @@ a:hover {
 }
 
 @media (max-width: 300px) {
+  .logo {
+    width: 150px;
+  }
+ 
+  
 }
