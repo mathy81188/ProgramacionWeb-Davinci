@@ -70,10 +70,15 @@ h2::before {
     width: 80%;
     display: flex;
     padding: 10px;
-   
 
-  
-  
+  }
+
+  article{
+    border-left: 0;
+  }
+
+  article:hover{
+    border-left: 0 none;
   }
 
 }

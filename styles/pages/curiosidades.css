@@ -73,8 +73,14 @@ h2::before {
   padding: 0%;
 }
   
+article{
+  border-left: 0px ;
+ 
+}
 
-
+article:hover{
+  border-left: 0px none;
   
   
+}
 }
