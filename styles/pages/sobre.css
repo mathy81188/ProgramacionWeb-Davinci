@@ -62,6 +62,7 @@ h2::before {
 @media screen and (max-width: 930px) {
   .video-sobre {
     display: flex;
+   
   }
 
   article {
@@ -75,8 +76,8 @@ h2::before {
 
 @media screen and (max-width: 500px) {
   .video-sobre {
-    width: 100%;
-    height: auto;
+
     display: flex;
+    
   }
 }
