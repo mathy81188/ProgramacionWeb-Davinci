@@ -29,10 +29,9 @@ main {
   max-width: 560px;
   margin: auto;
   display: flex;
-
 }
 
-.bienvenida{
+.bienvenida {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,8 +86,6 @@ h2 {
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-
-
 }
 
 .curiosidades-texto {
@@ -109,30 +106,17 @@ h2 {
   }
 
   .video-index {
-    width: 80%;
-
     display: flex;
-    padding: 10px;
-  
-  
   }
-
 }
 
 @media screen and (max-width: 350px) {
-
-
-    .video-index {
-      width: 100%;
-     height: auto;
-      margin: auto;
-      display: flex;
-    
-    
-    }
-  
-
-
+  .video-index {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+  }
 
   .curiosidades {
     display: flex;
@@ -140,10 +124,7 @@ h2 {
     align-items: center;
     justify-content: space-evenly;
     width: 90%;
-   height: 400px;
+    height: 400px;
     padding: 20px;
   }
-
-
-  
 }

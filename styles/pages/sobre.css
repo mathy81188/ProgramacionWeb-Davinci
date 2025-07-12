@@ -4,9 +4,9 @@ main {
   color: #0c1c3c;
   font-family: Arial, sans-serif;
   font-size: 20px;
- width: 100%;
- padding-bottom: 20px;
- flex: auto;
+  width: 100%;
+  padding-bottom: 20px;
+  flex: auto;
 }
 
 .portada {
@@ -18,15 +18,13 @@ main {
   width: 100%;
   height: 500px;
   display: flex;
-  
 }
 
-.video-sobre{
+.video-sobre {
   width: 100%;
   max-width: 560px;
   margin: auto;
   display: flex;
-
 }
 .sobre {
   width: 100%;
@@ -61,36 +59,24 @@ h2::before {
   content: "🎬 ";
 }
 
-
-
 @media screen and (max-width: 930px) {
-
-
   .video-sobre {
-    width: 80%;
     display: flex;
-    padding: 10px;
-
   }
 
-  article{
+  article {
     border-left: 0;
   }
 
-  article:hover{
+  article:hover {
     border-left: 0 none;
   }
-
 }
 
-@media screen and (max-width: 350px) {
-
+@media screen and (max-width: 500px) {
   .video-sobre {
     width: 100%;
-   height: auto;
-    margin: auto;
+    height: auto;
     display: flex;
-  
-  
   }
 }

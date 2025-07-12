@@ -46,15 +46,27 @@ h2::before {
   height: auto;
 }
 
+iframe {
+  width: 80%;
+}
+
 @media screen and (max-width: 768px) {
- article{
-  border-left: 0px;
+  article {
+    border-left: 0px;
+  }
 
- 
- }
+  article:hover {
+    border-left: 0px none;
+  }
 
- article:hover{
+  .spotify {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    height: auto;
+  }
 
-  border-left: 0px none;
- }
+  iframe {
+    width: 100%;
+  }
 }
